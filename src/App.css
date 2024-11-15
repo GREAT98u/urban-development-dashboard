@@ -1,0 +1,11 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-left: 255px; /* Width of the sidebar */
+  padding: 20px;
+  flex: 1;
+}

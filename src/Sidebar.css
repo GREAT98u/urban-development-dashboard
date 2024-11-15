@@ -1,0 +1,35 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    color: #ECF0F1;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    color: #BDC3C7;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #34495E;
+    color: #ECF0F1;
+  }
+  

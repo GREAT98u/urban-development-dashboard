@@ -1,0 +1,62 @@
+/* TrafficPrediction.css */
+.traffic-prediction-container {
+    margin-left: 100px; /* Adjust if needed based on sidebar width */
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .traffic-prediction-container h2 {
+    text-align: center;
+    color: #4a90e2;
+  }
+  
+  .traffic-prediction-card {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .traffic-prediction-card h3 {
+    color: #00796b;
+  }
+  
+  .traffic-prediction-card p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .traffic-data-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .traffic-data-item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9em;
+  }
+  
+  .traffic-data-item strong {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .traffic-prediction-container {
+      margin-left: 0;
+      padding: 10px;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.public-transport-container {
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f0f4f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .public-transport-container h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .public-transport-container p {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+  }
+  
+  .transport-optimization-map {
+    height: 80vh;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
